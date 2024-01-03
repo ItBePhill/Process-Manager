@@ -1,13 +1,26 @@
-#Console UI.py, Will be what gives Main.py what needs to be changed
-#Ver 0.1
+#Console UI.py, Will be what gives Manager.py what needs to be changed
 import logging
 from datetime import date
 import os
-logpath = os.path.join(os.path.dirname(__file__), "Logs")
-logs = len(os.listdir(logpath))
+import Save
+import logs
 
-if not os.path.exists(logpath):
-    os.makedirs(logpath)
-from ChangeJSON import *
-logging.basicConfig(filename=f'{logpath}\{logs+1}{date.today()} Log.log', filemode='w', format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level = logging.INFO)
-logging.info("Started Console UI Successfully!")
+logs.info("Console UI.py Started Successfully!")
+
+
+rule = input("Enter a rule / action \nsee Docs.md for help\n-")
+
+
+splitrule = f"{rule.split(' ')[0]} {rule.split(' ')[1]}"
+
+splitaction = f"{rule.split(' ')[2]} {rule.split(' ')[3]}"
+
+print(f"Rule: {splitrule}")
+
+print(f"Action: {splitaction}")
+
+logs.info("Saving Rules / Actions...")
+Save.Save({
+    "Rule" : splitrule,
+    "Action" : splitaction
+})

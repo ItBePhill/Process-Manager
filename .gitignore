@@ -1,2 +1,5 @@
 /Config
 /*.log
+/Logs
+/Json
+/_pycache_
