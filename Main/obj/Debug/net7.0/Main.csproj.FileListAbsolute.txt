@@ -1,0 +1,14 @@
+D:\programming_languages\Python\Process Manager\Main\bin\Debug\net7.0\Main.exe
+D:\programming_languages\Python\Process Manager\Main\bin\Debug\net7.0\Main.deps.json
+D:\programming_languages\Python\Process Manager\Main\bin\Debug\net7.0\Main.runtimeconfig.json
+D:\programming_languages\Python\Process Manager\Main\bin\Debug\net7.0\Main.dll
+D:\programming_languages\Python\Process Manager\Main\bin\Debug\net7.0\Main.pdb
+D:\programming_languages\Python\Process Manager\Main\obj\Debug\net7.0\Main.GeneratedMSBuildEditorConfig.editorconfig
+D:\programming_languages\Python\Process Manager\Main\obj\Debug\net7.0\Main.AssemblyInfoInputs.cache
+D:\programming_languages\Python\Process Manager\Main\obj\Debug\net7.0\Main.AssemblyInfo.cs
+D:\programming_languages\Python\Process Manager\Main\obj\Debug\net7.0\Main.csproj.CoreCompileInputs.cache
+D:\programming_languages\Python\Process Manager\Main\obj\Debug\net7.0\Main.dll
+D:\programming_languages\Python\Process Manager\Main\obj\Debug\net7.0\refint\Main.dll
+D:\programming_languages\Python\Process Manager\Main\obj\Debug\net7.0\Main.pdb
+D:\programming_languages\Python\Process Manager\Main\obj\Debug\net7.0\Main.genruntimeconfig.cache
+D:\programming_languages\Python\Process Manager\Main\obj\Debug\net7.0\ref\Main.dll
